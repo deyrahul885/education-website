@@ -1,0 +1,33 @@
+.single_feature h2 i {
+    font-size: 2.5rem;
+  }
+
+  .feature_sec{
+    padding: 40px;
+  }
+
+  .single_feature h6 {
+    font-size: 1.5rem;
+    line-height: 36px;
+  }
+  
+  .single_feature p{
+    line-height: 30px;
+  }
+
+  .feature_card{
+    height: 340px;
+  }
+
+  .feature_card:hover{
+    border:1px solid var(--bg-color);
+  }
+    .single_feature i:hover{
+      background-color:darkslateblue;
+      padding: 20px;
+      border-radius: 50%;
+      color: #fff;
+    }
+  
+  
+  

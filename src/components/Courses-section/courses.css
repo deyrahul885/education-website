@@ -1,0 +1,58 @@
+  .course_card{
+    margin:1rem  0;
+    border-top-left-radius: 80px;
+  }
+
+  .course_img img {
+    border-top-left-radius: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .author p{
+    line-height: 26px;
+    margin: 0;
+    margin-left: 5px;
+  }
+  .enroll a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #17bf9e;
+  }
+  .enroll-btn{
+    text-align: center;
+    margin: 20px auto 0;
+  }
+  
+  .lesson,
+  .students,
+  .rating {
+    font-size: 0.9rem;
+    color: #0a2b1e;
+    font-weight: 500;
+  }
+  
+  .lesson i,
+  .students i,
+  .rating i {
+    font-weight: 400;
+  }
+  
+  .course_title {
+    font-size: 1.5rem;
+  }
+  
+  .course_top h2 {
+    font-weight: 600;
+  }
+
+  @media only screen and (max-width: 991px) {
+    .course__top_wrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+    .text-end {
+        text-align: center!important;
+    }
+  } 
+  

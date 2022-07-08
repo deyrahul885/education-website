@@ -1,0 +1,33 @@
+.contact_row{
+    width:60%;
+    margin:auto;
+    position:relative;
+    top:-50px;
+}
+
+.contact_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+h2.contact_number{
+    font-size: 2rem ;
+}
+@media only screen and (max-width:991px) {
+    .contact_row{
+        flex-direction: column;
+        width:85%;
+        margin-bottom: 20px;
+    }
+    .contact_top{
+        flex-direction: column;
+        width:94%;
+        position: absolute;
+        background-color: #eec0c6;
+        background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+    }
+    .contact_top h2{
+        font-size: 2rem;
+    }
+}
